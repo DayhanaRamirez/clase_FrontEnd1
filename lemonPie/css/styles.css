@@ -1,0 +1,83 @@
+
+/* Estilos generales */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Playfair+Display:ital,wght@1,700&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Header */
+
+.nav{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Main*/
+
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+h3{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.italica{
+    font-style: italic;
+}
+
+.banner{
+    background: wheat url("../assets/img/lemon-pie1.svg") no-repeat fixed center;
+    background-size: cover;
+    height: 460px;
+    color: white;
+    filter: grayscale(30%);
+  
+}
+
+.icono-receta{
+    color: yellowgreen;
+    font-size: 30px;
+    padding: 5px;
+    
+}
+
+.icono-instruccion{
+    color: yellowgreen;
+    font-size: 30px;
+    padding: 5px;
+    
+}
+
+/* Footer */
+footer{
+    text-align: center;
+    background-color:#ccc ;
+}
+
+

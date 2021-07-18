@@ -1,0 +1,52 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+}
+
+h2, h3{
+    font-size: 20px;
+}
+h1, h2, h3{
+    font-weight: 700;
+}
+
+h1, h2{ 
+    color: rgba(0, 86, 119, 1);
+    background-color: rgba(196, 196, 196, 1) ;
+    letter-spacing: 2px;
+}
+
+p{
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.datos{
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+.lista{
+    font-weight: bold;
+}
+
+.section{
+    margin: 0 auto;
+    width: 70%;
+}
+
+.imagen{
+    background-color:rgba(229, 229, 229, 1);
+    text-align: center;
+}
+
+footer{
+    color: white;
+    background-color:rgba(0, 86, 119, 1) ;
+    text-align: center;
+
+}
