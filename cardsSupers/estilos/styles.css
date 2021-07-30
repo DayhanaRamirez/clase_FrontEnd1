@@ -1,0 +1,106 @@
+/* Estilos generales */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* Header */
+
+header{
+    box-shadow: 0 0 1rem black;
+
+}
+header p{
+    background-color: rgba(28, 209, 176, 1);;
+    padding: 0.5rem;
+}
+
+h1{
+    background-color: rgba(0, 102, 159, 1);
+    padding: 1.5rem;
+    font-weight: bold;
+}
+
+/* Main */
+
+.contenedor-main{
+    display: flex;
+    justify-content: space-around;
+    padding: 9rem 15rem;
+
+ 
+}
+.card{
+    height: 38rem;
+    width: 25rem;
+    box-shadow: 0rem 0.5rem 0.5rem rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 3%;
+    position: relative;
+    background-color: #E5E5E5;
+ 
+}
+
+.fondo1{
+    background-image: url(/assets/img/fondobatman.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    height: 15rem;
+}
+
+.fondo2{
+    background-image: url(/assets/img/fondoharley.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+}
+
+.contenido{
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+
+.card-button{
+    display: block;
+    background-color: rgba(0, 102, 159, 1);
+    padding: 1rem;
+
+
+}
+
+.img-avatar{
+    width: 10rem;
+    border-radius: 100%;
+    box-shadow: 0 0 10px black;
+    position: absolute;
+    top: 9rem;
+}
+
+footer{
+    background-color: rgba(0, 102, 159, 1);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
