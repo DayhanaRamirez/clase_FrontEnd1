@@ -7,5 +7,7 @@ https://dayhanaramirez.github.io/clase_FrontEnd1/petShop/index.html
 https://dayhanaramirez.github.io/clase_FrontEnd1/cv/index.html
 4. CV Batman
 https://dayhanaramirez.github.io/clase_FrontEnd1/cv_Batman/index.html
-4. Card Supers
+5. Card Supers
 https://dayhanaramirez.github.io/clase_FrontEnd1/cardsSupers/index.html
+6. Pizzeria
+https://dayhanaramirez.github.io/clase_FrontEnd1/pizzeria/index.html
