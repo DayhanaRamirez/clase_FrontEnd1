@@ -1,0 +1,57 @@
+/* Estilos Generales */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Header */
+
+.ofertas{
+    background-color:rgba(34, 34, 34, 1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+}
+
+.espacio-menu{
+    padding: 0.5rem;
+}
+
+.navegacion{
+    background-color:rgba(240, 168, 62, 1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blanco{
+    color: white
+}
+
+
+/* Main */
+
+.banner{
+    background-color: wheat;
+    background-image: url("img/bowl-and-pet-daities-on-green-background1.svg");
+    height: 30rem;
+  
+}
