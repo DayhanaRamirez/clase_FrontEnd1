@@ -21,31 +21,29 @@ a {
 /* Header */
 
 .ofertas{
-    background-color:rgba(34, 34, 34, 1);
+    background-color: black;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 5rem;
 }
-
 .menu{
     display: flex;
+    align-items: center;   
 }
-
 .espacio-menu{
-    padding: 0.5rem;
+   padding: 0.5rem;
+    
 }
-
 .navegacion{
     background-color:rgba(240, 168, 62, 1);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 1rem 2rem;
 }
-
 .blanco{
-    color: white
+    color: white;
 }
-
 
 /* Main */
 
