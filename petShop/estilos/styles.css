@@ -41,6 +41,7 @@ a {
     align-items: center;
     padding: 1rem 2rem;
 }
+
 .blanco{
     color: white;
 }
@@ -48,8 +49,238 @@ a {
 /* Main */
 
 .banner{
-    background-color: wheat;
-    background-image: url("img/bowl-and-pet-daities-on-green-background1.svg");
-    height: 30rem;
-  
+    background-image: url(/assets/img/bowl-and-pet-daities-on-green-background.svg);
+    background-color: bisque;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:48rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 2rem;
 }
+
+.sub-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 17rem;
+    align-items: center;
+}
+
+.banner-1{
+    background-color: white;
+    font-size: 3.5rem;
+    border-radius: 1rem;
+    padding: 1rem; 
+}
+
+.banner-2{
+    font-size: 1.8rem;
+}
+
+.banner-3{
+    background-color: rgba(240, 168, 62, 1);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+}
+
+.productos-destacados{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 48rem;
+    margin: 3rem 1rem;
+}
+
+.pd-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    height: 15rem;
+}
+
+.pd1-img{
+    height: 6rem;
+}
+.pd1-h2{
+    font-size: 4rem;
+
+}
+.pd1-a{
+    color:black;
+    font-size: 1.5rem;
+}
+
+.pd-2{
+    display: flex;
+    height: 30rem;
+}
+
+.pd-2accesorios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.pd2-img{
+    height: 25rem;
+    width: 30rem;
+}
+
+.pd2-h3{
+    font-size: 1.3rem;
+}
+.pd2-h4{
+    font-size: 1.1rem;
+    color: rgba(240, 168, 62, 1);
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.formulario{
+    height: 25rem;
+    width: 30%;
+}
+
+.form-title{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 1rem;
+
+}
+
+.form-input{
+    display: block;
+    background-color: rgba(60, 35, 19, 1);
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 0.8rem;
+    padding: 1rem;
+}
+
+.reset-input{
+    background-color: rgba(138, 135, 135, 1);
+    border-radius: 1rem;
+    color: white;
+    font-size: 1.5rem;
+    margin: 1rem;
+    padding: 0.5rem 2rem;
+    
+}
+
+.enviar-input{
+    background-color: rgba(240, 168, 62, 1);
+    border-radius: 1rem;
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Footer */
+
+.suscripcion{
+    background-color:rgba(240, 168, 62, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info{
+    background-color: rgba(60, 35, 19, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+    height: 18rem;
+}
+
+.correo{
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.imagenes{
+    display: flex;
+    flex-direction: column;
+    height: 14rem; 
+    justify-content: space-between;
+    padding: 0rem 0.6rem;
+}
+
+.sub-info{
+    display: flex;
+}
+
+.titulo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.texto{
+    font-size: 0.8rem;
+    color: white;
+
+}
+
+.fin{
+    background-color:rgba(34, 34, 34, 1);
+    text-align: center;
+    padding: 1rem;
+}
+
+.footer-input{
+    display: block;
+    background-color: white;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
+    padding: 1rem 10rem;
+
+}
+
+.footer-button{
+    display: block;
+    background-color: rgba(60, 35, 19, 1);
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin:0rem 0.8rem;
+    color: white;
+
+}
+
+::placeholder {
+    color: grey;
+
+}
+
+
+
+
+
+
