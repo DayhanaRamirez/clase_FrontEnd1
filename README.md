@@ -11,3 +11,6 @@ https://dayhanaramirez.github.io/clase_FrontEnd1/cv_Batman/index.html
 https://dayhanaramirez.github.io/clase_FrontEnd1/cardsSupers/index.html
 6. Pizzeria
 https://dayhanaramirez.github.io/clase_FrontEnd1/pizzeria/index.html
+6. Pet Shop
+https://dayhanaramirez.github.io/clase_FrontEnd1/petShop/index.html
+
