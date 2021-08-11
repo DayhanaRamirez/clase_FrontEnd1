@@ -40,10 +40,10 @@ h1{
 .contenedor-main{
     display: flex;
     justify-content: space-around;
-    padding: 9rem 15rem;
-
- 
+    height: 45rem;
+    align-items: center;
 }
+
 .card{
     height: 38rem;
     width: 25rem;
@@ -104,3 +104,36 @@ footer{
     text-align: center;
     padding: 1rem;
 }
+
+/* Responsive  */
+
+@media screen and (max-width: 768px) {
+    .contenedor-main{
+        flex-direction: column;
+        height: 125rem;
+    }
+ 
+}
+
+@media screen and (max-width: 480px) {
+    .contenedor-main{
+        flex-direction: column;
+        height: 125rem;
+        padding: 1rem 1rem;
+    }
+
+    .footer{
+        width: 100%;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    header{
+        text-align: center;
+    }
+ 
+}
+
+

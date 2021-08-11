@@ -25,6 +25,7 @@ a {
     display: flex;
     justify-content: space-between;
     padding: 1rem 5rem;
+    align-items: center;
 }
 .menu{
     display: flex;
@@ -44,6 +45,7 @@ a {
 
 .blanco{
     color: white;
+    text-align: center;
 }
 
 /* Main */
@@ -101,6 +103,7 @@ a {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    justify-content: center;
     color: black;
     height: 15rem;
 }
@@ -198,6 +201,12 @@ a {
 
 }
 
+.icono-menu{
+    color: white;
+    display: none;
+
+}
+
 /* Footer */
 
 .suscripcion{
@@ -279,7 +288,125 @@ a {
 
 }
 
+/* Responsive */
 
+@media screen and (max-width: 768px){
+    .banner-2{
+        color: white;
+    }
+
+    .pd-2{
+        flex-direction: column;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer{
+        margin-top: 2rem;
+    }
+
+    .contacto{
+        margin-top: 60rem;
+
+    }
+
+    .formulario{
+        display: flex;
+        align-items: center;
+        margin-left: -5rem;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+
+    .ofertas{
+        display: none;
+    }
+
+    .icono-menu{
+        display: block;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .banner{
+        height: 30rem;
+        background-position: 20%;
+    }
+
+    .sub-banner{
+        height: 12rem;
+
+    }
+
+    .banner-1{
+        font-size: 1.5rem;
+        padding: 0.5rem;
+
+    }
+
+    .banner-2{
+        font-size: 1rem;
+
+    }
+
+    .banner-3{
+        font-size: 1rem;
+        padding: 1rem;
+
+    }
+
+    .pd-1{
+        height: 25rem;
+    }
+
+    .pd1-h2{
+        font-size: 2rem;
+    }
+        
+
+    .pd-2{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .pd1-a{
+        font-size: 1rem;
+    }
+
+    .pd-2{
+        margin: 0rem 2rem;
+    }
+
+    .formulario{
+        width: 100%;
+        margin-left: 2rem;
+    }
+
+    footer{
+        width: 100%;
+    }
+
+    .correo{
+        width: 100%;
+    }
+
+    .info{
+        flex-direction: column;
+    }
+
+    .suscripcion{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
 
 
 
